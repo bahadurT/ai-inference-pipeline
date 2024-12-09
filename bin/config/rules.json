@@ -1,0 +1,150 @@
+{
+    "camera1": [
+        {
+            "detection_model_list": ["person","attire_detection"],
+            "rule_list": [
+                {
+                    "trespass": [
+                        {
+                            "attire_detection": [
+                                {
+                                    "confidence": 0.5,
+                                    "bbox_size": [250, 600],
+                                    "polygon_points": [[853,264,1051,260,1377,1043,543,1008]],
+                                    "line_points": [[180,1005,1572,1002]],
+                                    "isLine": false,
+                                    "isPolygon": true,
+                                    "active": true,
+                                    "isBboxSize": true,
+                                    "tracker": false,
+                                    "server_url":"url",
+                                    "alert_duration":300,
+                                    "isAlert":false,
+                                    "is_draw_roi": true,
+                                    "is_draw_rect": true,
+                                    "is_save_frame": true,
+                                    "is_draw_lable": true,
+                                    "is_draw_line": false,
+                                    "is_draw_count": true,
+                                    "in_out_points": [[247,233],[249,426]],
+                                    "is_draw_circle": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "camera2": [
+        {
+            "detection_model_list": ["person","attire_detection"],
+            "rule_list": [
+                {
+                    "trespass": [
+                        {
+                            "attire_detection": [
+                                {
+                                    "confidence": 0.5,
+                                    "bbox_size": [250, 600],
+                                    "polygon_points": [[847,345,727,660,1198,740,1086,377],[700,723,1227,890,1336,591,1753,1022,1614,1071,0,1061,49,489,580,479]],
+                                    "line_points": [[984,936,1827,967],[1150,606,1709,600]],
+                                    "isLine": false,
+                                    "isPolygon": true,
+                                    "active": false,
+                                    "isBboxSize": true,
+                                    "tracker": false,
+                                    "server_url":"url",
+                                    "alert_duration":300,
+                                    "isAlert":false,
+                                    "is_draw_roi": true,
+                                    "is_draw_rect": true,
+                                    "is_save_frame": true,
+                                    "is_draw_lable": true,
+                                    "is_draw_line": false,
+                                    "is_draw_count": true,
+                                    "in_out_points": [[1515,195],[1515,273]],
+                                    "is_draw_circle": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "camera3": [
+        {
+            "detection_model_list": ["person","attire_detection"],
+            "rule_list": [
+                {
+                    "trespass": [
+                        {
+                            "attire_detection": [
+                                {
+                                    "confidence": 0.5,
+                                    "bbox_size": [250, 600],
+                                    "polygon_points": [[847,345,727,660,1198,740,1086,377],[700,723,1227,890,1336,591,1753,1022,1614,1071,0,1061,49,489,580,479]],
+                                    "line_points": [[984,936,1827,967],[1150,606,1709,600]],
+                                    "isLine": false,
+                                    "isPolygon": true,
+                                    "active": false,
+                                    "isBboxSize": true,
+                                    "tracker": false,
+                                    "server_url":"url",
+                                    "alert_duration":300,
+                                    "isAlert":false,
+                                    "is_draw_roi": true,
+                                    "is_draw_rect": true,
+                                    "is_save_frame": true,
+                                    "is_draw_lable": true,
+                                    "is_draw_line": false,
+                                    "is_draw_count": true,
+                                    "in_out_points": [[1515,195],[1515,273]],
+                                    "is_draw_circle": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "camera4": [
+        {
+            "detection_model_list": ["attire_detection","person"],
+            "rule_list": [
+                {
+                    "trespass": [
+                        {
+                            "attire_detection": [
+                                {
+                                    "confidence": 0.5,
+                                    "bbox_size": [250, 600],
+                                    "polygon_points": [[1093,693,1221,1062,550,1040,805,686]],
+                                    "line_points": [[1165,713,1191,1046]],
+                                    "isLine": false,
+                                    "isPolygon": true,
+                                    "active": true,
+                                    "isBboxSize": false,
+                                    "tracker": true,
+                                    "server_url":"10.0.1.224:8095",
+                                    "alert_duration":5,
+                                    "isAlert":false,
+                                    "is_draw_roi": true,
+                                    "is_draw_rect": true,
+                                    "is_save_frame": true,
+                                    "is_draw_lable": true,
+                                    "is_draw_line": true,
+                                    "is_draw_count": true,
+                                    "in_out_points": [[72,119],[67,230]],
+                                    "is_draw_circle": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

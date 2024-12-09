@@ -1,0 +1,22 @@
+{
+    "model": [
+        {
+            "engine_name": "yolo_v5_ov_obj",
+            "detection_model": "person",
+            "model_path": "yolov5n.xml",
+            "image_path": "img1.jpg",
+            "lableFile": "bin/lables/person.txt",
+            "width": 320,
+            "height": 320
+        },
+        {
+            "engine_name": "yolo_v5_ov_obj",
+            "detection_model": "attire_detection",
+            "model_path": "yolov5n.xml",
+            "image_path": "img1.jpg",
+            "lableFile": "bin/lables/person.txt",
+            "width": 320,
+            "height": 320
+        }
+    ]
+}

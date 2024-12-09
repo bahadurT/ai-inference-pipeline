@@ -1,0 +1,44 @@
+{
+    "cameras": [
+        {
+            "camera_id": "camera1",
+            "rtsp_url": "rtsp://username:password@url",
+            "use_gpu_decoder": false,
+            "encode_mode": "h264",
+            "formats": "RGB",
+            "fps": 5,
+            "height": 1080,
+            "width": 1920
+        },
+        {
+            "camera_id": "camera2",
+            "rtsp_url": "rtsp://username:password@url",
+            "use_gpu_decoder": false,
+            "encode_mode": "h265",
+            "formats": "RGB",
+            "fps": 5,
+            "height": 1080,
+            "width": 1920
+        },
+        {
+            "camera_id": "camera3",
+            "rtsp_url": "rtsp://username:password@url",
+            "use_gpu_decoder": false,
+            "encode_mode": "h265",
+            "formats": "RGB",
+            "fps": 5,
+            "height": 1080,
+            "width": 1920
+        },
+        {
+            "camera_id": "camera4",
+            "rtsp_url": "rtsp://username:password@url",
+            "use_gpu_decoder": false,
+            "encode_mode": "h265",
+            "formats": "RGB",
+            "fps": 5,
+            "height": 1080,
+            "width": 1920
+        }
+    ]
+}

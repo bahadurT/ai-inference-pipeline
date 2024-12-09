@@ -1,0 +1,10 @@
+Customer
+helmet
+atm
+Chest_Door_Open
+box
+paper
+head
+chair
+fan
+dustbin
